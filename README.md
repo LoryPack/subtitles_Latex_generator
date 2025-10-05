@@ -125,4 +125,3 @@ Ensure your `outline.txt` has content separated by double line breaks (`\n\n`).
 ## License
 
 This project is open source. Feel free to modify and distribute as needed.
-# subtitles_Latex_generator

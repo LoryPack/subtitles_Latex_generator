@@ -1,0 +1,28 @@
+\documentclass[aspectratio=169]{beamer} % 16:9 aspect ratio
+\usepackage{pgffor}
+
+% Set the slide background to black and text to white
+\setbeamercolor{background canvas}{bg=black}
+\setbeamercolor{normal text}{fg=white}
+
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Custom command for a slide with extra-large text strictly at the bottom
+\newcommand{\bottomSlide}[1]{%
+	\begin{frame}[plain,b]
+		\vspace{\fill} % Push text completely to the bottom
+		\begin{flushleft}
+			\fontsize{26pt}{20pt}\selectfont % Larger than \Huge
+		%\Huge			
+			#1
+		\end{flushleft}
+	\end{frame}
+}
+
+\begin{document}
+	
+	% Include the generated slides from slides.tex
+	\input{slides.tex}
+	
+\end{document}
