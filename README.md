@@ -1,3 +1,7 @@
+<a href="https://www.buymeacoffee.com/lorenzopacq">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 40px;">
+</a>            
+
 # Subtitles TXT to PDF
 
 A simple tool that converts text outlines into PDF slides with large, bottom-aligned text - perfect for subtitle-style presentations or karaoke displays.
